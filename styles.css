@@ -387,6 +387,13 @@ body.light-mode .video-meta {
     pointer-events: auto;
 }
 
+.video-header.hidden-controls {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+
 .back-button {
     cursor: none;
 }
@@ -477,9 +484,10 @@ body.light-mode .video-meta {
     transition: opacity 0.4s;
 }
 
-.video-controls.hide {
+.video-controls.hidden-controls {
     opacity: 0;
     pointer-events: none;
+	transition: opacity 0.2s ease;
 }
 
 .player-page.hide-cursor {
