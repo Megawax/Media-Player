@@ -486,6 +486,10 @@ body.light-mode .video-meta {
     cursor: none;
 }
 
+.player-page {
+    cursor: default;
+}
+
 .hidden-controls {
     opacity: 0;
     pointer-events: none;
