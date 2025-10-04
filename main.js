@@ -535,6 +535,8 @@ class AppleTVPlayer {
         this.playerPage.classList.remove('hide-cursor');
         if (this.videoControls) {
             this.videoControls.classList.remove('hidden-controls');
+        }
+        if (this.videoHeader) {
             this.videoHeader.classList.remove('hidden-controls');
         }
 
@@ -543,6 +545,8 @@ class AppleTVPlayer {
                 this.playerPage.classList.add('hide-cursor');
                 if (this.videoControls) {
                      this.videoControls.classList.add('hidden-controls');
+                }
+                if (this.videoHeader) {
                     this.videoHeader.classList.add('hidden-controls');
                 }
             }, 2000);
