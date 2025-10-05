@@ -383,16 +383,11 @@ body.light-mode .video-meta {
     pointer-events: none;
 }
 
-.video-header > * {
-    pointer-events: auto;
-}
-
 .video-header.hidden-controls {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s ease;
 }
-
 
 .back-button {
     cursor: none;
